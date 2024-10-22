@@ -1,0 +1,30 @@
+.fondo {
+    background-color: rgb(30, 28, 107);
+}
+
+.miTexto {
+    font-size: 70px;
+    color: hsl(0, 0%, 100%);
+}
+
+.miTexto2 {
+    font-size: 85px;
+    color: rgb(147, 146, 199);
+}
+
+body{
+    background-color: hwb(0 0% 100% / 0.678);
+}
+
+.miTexto3 {
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+}
+
+#principal{
+    font-size: 50px;
+}
+
+.logo {
+    width: 500px;
+}
