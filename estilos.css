@@ -3,7 +3,7 @@
 }
 
 .miTexto {
-    font-size: 70px;
+    font-size: 2.5em;
     color: hsl(0, 0%, 100%);
 }
 
@@ -26,5 +26,46 @@ body{
 }
 
 .logo {
-    width: 500px;
+    width: 20em;
+    height: 300px;
+}
+
+#titulos{
+    border: 0.5em solid hsl(0, 0%, 93%);
+    width: 45vw;
+    margin: auto;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.cards {
+    border: 2px solid black;
+    width: fit-content;
+    padding: 2em 2em 2em 2em;
+    border-radius: 15%;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3em;
+    align-items: center;
+}
+
+.cards:hover{
+    background-color: #cf2727;
+}
+
+#cards-container{
+    background-color: #3e3bdfc5;
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 2px #ffffff;
+    border-radius: 5%;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
